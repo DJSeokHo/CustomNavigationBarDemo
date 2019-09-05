@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!--
+        因为使用了 AppCompat.NoActionBar 的主题，所以一些控件没有任何颜色，可以完全自定义。
+        如果不习惯，可以用其他主题下的 NoActionBar 主题。
+        NoActionBar是为了做沉浸式画面。
+         -->
+
+        <!-- edit text -->
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/app_basic_color</item>
+
+
+    </style>
+
+</resources>
